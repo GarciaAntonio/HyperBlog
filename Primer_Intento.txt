@@ -5,7 +5,8 @@ Hare un listado de comandos para que no se me olviden.
 
 
 Lista de comandos:
-$code "nombre del archivo" para hacer un archivo
-$touch es para crear un archivo
-$pdw me muestra en donde estoy 
-$ls listado de archivos 
+$code "nombre del archivo" - para hacer un archivo
+$touch - es para crear un archivo
+$pdw - me muestra en donde estoy 
+$ls - listado de archivos de donde estoy 
+$ cd - cambio de lugar o directorio
