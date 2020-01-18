@@ -1,3 +1,4 @@
-Este es el principio del primer ejemplo de git 
+Este es la segunda version del primer ejemplo de git 
 Asi que ahorita vere que tanto puedo aprender de esto 
--.-
+Creo que voy bien, por lo pronto no he borrado el disco duro
+:)
