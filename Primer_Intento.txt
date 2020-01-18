@@ -1,0 +1,3 @@
+Este es el principio del primer ejemplo de git 
+Asi que ahorita vere que tanto puedo aprender de esto 
+-.-
