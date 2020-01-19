@@ -21,7 +21,8 @@ $ git log --stat - se ven los cambios especificos en los archivos apartir del co
 Nota: con la letra q se sale de aqui
 $ git checkout "numeros de archivos" "nombre de archivo" - te deja ver las versiones anterioes en 
 el mismo archivo
-Nota: No hacer commit cuando se esta viendo una version anterior
+Nota: No hacer add y commit cuando se esta viendo una version anterior
+porque se enviaria a la rama principal(master)
 
 
 Nota: Cuando se me olvide poner comentarios en el git commit y me envie al vim, 
