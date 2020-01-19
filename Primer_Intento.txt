@@ -17,6 +17,7 @@ $ git diff "los numeros de cada version" "y sin las comillas" - se comparan vers
 $ git reset "numeros de archivo" - se de vuelve a las versiones anteriores (--hard "todo se devuelve",
 --soft "lo mismo pero sin quitar lo de staging")
 $ git diff - se ve diferecias entre el directorio y el staging
+$ git log --stat - se ven los cambios especificos en los archivos apartir del commit
 
 
 Nota: Cuando se me olvide poner comentarios en el git commit y me envie al vim, 
