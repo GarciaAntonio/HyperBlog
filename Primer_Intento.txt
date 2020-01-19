@@ -18,6 +18,10 @@ $ git reset "numeros de archivo" - se de vuelve a las versiones anteriores (--ha
 --soft "lo mismo pero sin quitar lo de staging")
 $ git diff - se ve diferecias entre el directorio y el staging
 $ git log --stat - se ven los cambios especificos en los archivos apartir del commit
+Nota: con la letra q se sale de aqui
+$ git checkout "numeros de archivos" "nombre de archivo" - te deja ver las versiones anterioes en 
+el mismo archivo
+Nota: No hacer commit cuando se esta viendo una version anterior
 
 
 Nota: Cuando se me olvide poner comentarios en el git commit y me envie al vim, 
