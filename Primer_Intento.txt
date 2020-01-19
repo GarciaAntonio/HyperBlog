@@ -27,6 +27,9 @@ $ git rm - Este comando nos ayuda a eliminar archivos de git
 sin eliminar su historial del sistema de versiones
 $git reset - Con este comando no es como git checkout, aqui nos
 volvemos al pasado sin la posivilidad de volver al futuro
+$ git reset head - Este comando es para para sacer archivos del area de staging.
+No es para borrarlos ni nada de eso, solo para los ultimos cambios de archivos no se envien
+al ultimo commit.
 
 
 Nota: Cuando se me olvide poner comentarios en el git commit y me envie al vim, 
