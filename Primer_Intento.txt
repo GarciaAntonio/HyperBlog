@@ -43,7 +43,9 @@ tambien este en el directorio de trabajo
 $ git pull - es la combinacion de merge y fetch 
 $ git commit -am(asi se deja mensaje ó git commit -a (asi no se dejaria mensaje)) - hace lo del git
 add y git commit pero nada mas se puede si ya se habia hecho un add antes
-$git branch "nombre de la rama" - asi es como se hace un rama para no afectar a master
+$ git branch "nombre de la rama" - asi es como se hace un rama para no afectar a master
+$ git branch - nos dice cuantas ramas hay y en cual estamos 
+$ git merge "nombre de rama" - y asi se fuciona una rama con el master
 
 
 Nota: Cuando se me olvide poner comentarios en el git commit y me envie al vim, 
