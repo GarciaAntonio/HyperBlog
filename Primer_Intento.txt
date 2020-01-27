@@ -2,7 +2,7 @@ Este es la tercer version del primer ejemplo de git
 Asi que ahorita vere que tanto puedo aprender de esto 
 Creo que voy bien, por lo pronto no he borrado el disco duro
 Hare un listado de comandos para que no se me olviden.
-
+Primera edicion de princess
 
 Lista de comandos:
 $code "nombre del archivo" - para hacer un archivo
