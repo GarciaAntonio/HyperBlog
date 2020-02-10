@@ -8,5 +8,4 @@ Un blog increíble para el curso de Git y Github.
 * El flujo de trabajo en Github
 * El verdadero amor por las buenas prácticas
 * Trucos muy locos del profesor
-* Las personalidades múltiples de Freddy
 
