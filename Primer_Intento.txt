@@ -97,6 +97,8 @@ $git tag “id commit”: agrego al commit mencionado una etiqueta.
 $git tag “id commit” -d: borro la etiqueta del commit.
 Espero que les sirva
 
+experimento 1
+
 master 1
 
 master 2
