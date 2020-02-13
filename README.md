@@ -9,4 +9,5 @@ Un blog increíble para el curso de Git y Github.
 * El verdadero amor por las buenas prácticas
 * Trucos muy locos del profesor
 * Creado por Platzi
-
+* Incluye ejemplos para todos
+* Disponible para todos
