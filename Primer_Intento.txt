@@ -1,8 +1,8 @@
-Este es la tercer version del primer ejemplo de git 
+﻿Este es la tercer version del primer ejemplo de git 
 Asi que ahorita vere que tanto puedo aprender de esto 
 Creo que voy bien, por lo pronto no he borrado el disco duro
 Hare un listado de comandos para que no se me olviden.
-
+Segunda edicion de princess pero sin ser una colaboradora oficial.
 
 Lista de comandos:
 $code "nombre del archivo" - para hacer un archivo
@@ -48,6 +48,62 @@ $ git branch - nos dice cuantas ramas hay y en cual estamos
 $ git merge "nombre de rama" - y asi se fuciona una rama con el master
 $git branch -dNombre_rama - asi es como se elimina una rama
 
+$git remote add origin “url” – para conectar con servidor remoto
+$git remote – verifica si se conecto 
+$git remote –v – muestra los origin donde se hara el fetch y push
+$git push origin master – aquí se envía al origin la rama master
+$git pull origin master – primero se tiene que traer lo del servidor remoto para poder envíale algún archivo
+$git pull origin master – allow-unrelated-histories- para fusionar también la hisotira del archivo
+$git log –all – muestra todo el historial
+$git log –all –graph – 
+$git log –all –graph – decórate –oneline – 
+Alias “nombre de alias”=”código que estará en el alias”
+$git tag –a “nombre del tag” –m”mensaje” “los números de cada commit”
+$git tag – muestra los tags que hay 
+$git show-ref –tags – muestra que tag están enlazados a que commit
+History – 
+$git push origin –tags – 
+Uso de Alias
+alias nombre=‘codigo’ aqui se le asigna a la variable nombre el codigo que queremos resumir, por ejemplo alias arbolito="git log --all --graph --decorate --oneline"
+unalias nombre sirve para borrar un alias creado
+Listado de todas Tags disponibles
+$git tag enumera todas las etiquetas disponibles
+search tags sirve para buscar versiones especificas y si se usa * nos mostrara todas las subversiones por ejemplo git tag -l “v1.8.5*”
+Crear, borrar y empujar Tags en GIT
+$git tag tagName Esto creará una tag local con el estado actual de la rama en la que se encuentra
+$git tag -d tagName Borrar un tag en el repositorio local
+$git tag tagName idCommit Esto creará una tag local con el identificador de la rama en la que se encuentra.
+$git push origin :refs/tags/tagName Borrar un tag del repositorio remoto
+Empuje un commit en GIT
+$git push origin tagName Empuje una etiqueta individual
+$git push origin --tags Empuje todas las etiquetas a la vez
+Nuevos commit para manejar ramas:
+$git show-branch: muestra cuales son las ramas que existen y cual ha sido su historia.
+$git show-branch --all: muestra algo muy similar a git show-branch pero con mas datos.
+$gitk: abre en un software con la historia de una manera visual ahí se pueden ver los cambios que se han hecho, da una idea de como esta estructurado el proyecto en cabecera, master, etc.
+Recapitulando:
+$git init: genera el repositorio donde estamos ubicados.
+$git add: agrega un archivo a la “lista de espera”, utilizando el comando “add .” (add espacio punto) agrega todo lo que este dentro del directorio.
+$git commit: genera un nodo a nuestro repositorio, se recuerda que antes del commit siempre y digo SIEMPRE, se debe de utilizar el comando “git add nombre archivo o punto”
+$git checkout: se utiliza para “saltar” entre commit. Si no puedes salir de un commit prueba utilizar “git checkout master” 😃
+$git status: le pido a GIT que me notifique si existen archivos que han sido modificado.
+$git log: me muestra los commit de la rama actual (me parece)
+$git branch “nombre”: genera una rama partiendo del commit actual, o donde esta la cabecera.
+$git merge “id commit”: le digo a GIT que voy a fusionar la rama del commit que estoy solicitando a la rama donde estoy actualmente.
+$git remote “nombre” “url”: le digo a GIT que voy a conectar con un repositorio remoto.
+$git pull “origin” “master”: servidor -> PC. Siempre utilizar este comando antes del push.
+$git push “origin” “master”: PC -> servidor.
+$git tag “id commit”: agrego al commit mencionado una etiqueta.
+$git tag “id commit” -d: borro la etiqueta del commit.
+Espero que les sirva
+
+experimento 1
+
+experimento 2
+
+master 1
+
+master 2
 
 Nota: Cuando se me olvide poner comentarios en el git commit y me envie al vim, 
 para empezar a escribir es esc + i
